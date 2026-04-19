@@ -1,0 +1,171 @@
+.zagolovok {
+display:flex;
+justify-content: center;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 56px;
+color: aliceblue;
+}
+
+.figcaption {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: bold;
+}
+
+
+.test{
+    width: 1339px;
+    height: 950px;
+    background-color: #000000;
+    border-radius: 4%; /*Закругление*/
+    position: absolute; /* Позиционирование, важно, сначала абсолют */
+    left:500px;
+    top: 10px;
+}
+
+.html {
+    background-color: rgb(32, 32, 32);
+}
+/*margin -- внутренний отступ от других предметов
+padding --внешний отступ от предметов других */
+.namesong {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-variant: bold;
+    position: absolute;
+    left: 25px;
+    
+}
+
+.song{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+    left:0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle{
+    width: 60%;
+    height:100%;
+    position:absolute;
+    left:20%;
+}
+
+.right{
+    width: 20%;
+    height:100%;
+    position: absolute;
+    left: 80%;
+}
+
+span{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    
+}
+
+.musicname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 1%;
+}
+
+a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.probell {
+    padding: 4%;
+}
+
+img {
+    border-radius: 12%;
+    outline: solid;
+    outline-color: #ffffff;
+    
+}
+
+.logo_img {
+    border-radius: 0%;
+    outline: solid;
+    outline-color: rgb(32, 32, 32);
+    left: 100px;
+    width: 480px;
+}
+
+.pleer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.plitka{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+._obj{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_name {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reklama {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.altleft{
+    left:0%;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ssil{
+ margin-left: 40px;
+ margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.otobr{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.vpn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+}
